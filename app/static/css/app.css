@@ -5,3 +5,31 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+/* .news__list {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(150px, 1fr));
+	grid-gap: 20px;
+	align-content: center;margin-left: 50px;
+} */
+
+
+.news__list {
+    display: grid;
+	grid-template-columns: repeat(3, minmax(150px, 1fr));
+	grid-gap: 20px;
+	align-content: center;
+    margin-left: 50px;
+	border: 1px solid #E2E8F0;
+	border-radius: 5px;
+	padding: .5reml
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0,.3);
+}
+
+
+.news__list img  {
+	max-width: 100px;
+
+	
+}
+
