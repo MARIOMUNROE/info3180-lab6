@@ -63,6 +63,9 @@ const NewsList= {
     <ul class="news__list">
     <li v-for="article in articles"
     class="news__item">{{ article.title }}</li>
+
+    
+
     </ul>
     </div>
 
